@@ -31,10 +31,11 @@ header {
 .nav-item a:hover {
     color: rgb(9, 87, 165);
     text-decoration: underline;
+    text-decoration-color: rgb(9, 87, 61);
 }
 
 main {
-    padding: 20px 30px;
+    padding: 20px;
 }
 
 table {
@@ -47,10 +48,11 @@ table {
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
-  padding: 8px;
+  padding: 8px 4px;
 }
 th {
     background-color: dodgerblue;
+    text-align: center;
 }
 
 tr:nth-child(even) {
@@ -78,29 +80,35 @@ tr:nth-child(even) {
     justify-content: center;
     border-radius: 10px;
 }
-
+form {
+    max-width: 600px;
+}
 form input {
     border: 1px solid rgb(238, 231, 231);
-    padding: 0 5px;
+    padding: 5px;
     border-radius: 10px;
+    width: 100%;
 }
 
 form input:focus {
-    border: 1px solid rgb(49, 207, 155);
+    border: 2px solid dodgerblue;
     outline: none;
 }
 
 .submit {
-    padding: 5px 15px;
+    padding: 10px 15px;
     border-radius: 10px;
-    background-color: aquamarine;
+    background-color: dodgerblue;
+    color: white;
     cursor: pointer;
     transition: all 0.5s;
     box-shadow: 0 8px 16px gray;
 }
 
 .submit:hover {
-    background-color: rgb(27, 211, 150);
+    background-color: rgb(34, 114, 194);
+    color: white;
+    font-size: 1.1rem;
 }
 
 footer {
