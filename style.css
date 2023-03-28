@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*, html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+h1, h2, h4, label, p, a,th, td {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+header {
+    background-color: gold;
+}
+.navbar-brand {
+    font-size: 32px;
+    font-weight: 800;
+}
+.nav-item a {
+    font-size: 20px;
+    color: dodgerblue;
+}
+
+.nav-item a:hover {
+    color: rgb(9, 87, 165);
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px 30px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+    background-color: dodgerblue;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.curriculum-focus {
+    background-color: dodgerblue;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+    height: fit-content;
+    padding: 50px;
+    margin: 20px 0;
+}
+
+.square {
+    background-color: rgb(137, 245, 137);
+    padding: 10px;
+    width: 300px;
+    min-height: 300px;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+form input {
+    border: 1px solid rgb(238, 231, 231);
+    padding: 0 5px;
+    border-radius: 10px;
+}
+
+form input:focus {
+    border: 1px solid rgb(49, 207, 155);
+    outline: none;
+}
+
+.submit {
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: 0 8px 16px gray;
+}
+
+.submit:hover {
+    background-color: rgb(27, 211, 150);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer img {
+    width: 10%;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+}
+
+.copyright a {
+    margin-left: 3px;
+}
