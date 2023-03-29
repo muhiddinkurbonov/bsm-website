@@ -29,9 +29,9 @@ header {
 }
 
 .nav-item a:hover {
-    color: red;
+    color: #2600ff;
     text-decoration: underline;
-    text-decoration-color: red;
+    text-decoration-color: #2600ff;
 }
 
 main {
