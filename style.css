@@ -19,19 +19,19 @@ h1, h2, h4, label, p, a,th, td {
 header {
     background-color: gold;
 }
-.navbar-brand {
+.navbar-brand h1{
     font-size: 32px;
     font-weight: 800;
 }
 .nav-item a {
     font-size: 20px;
-    color: dodgerblue;
+    color: rgb(85, 4, 38);
 }
 
 .nav-item a:hover {
-    color: rgb(9, 87, 165);
+    color: red;
     text-decoration: underline;
-    text-decoration-color: rgb(9, 87, 61);
+    text-decoration-color: red;
 }
 
 main {
@@ -80,14 +80,20 @@ tr:nth-child(even) {
     justify-content: center;
     border-radius: 10px;
 }
+
+.card-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
 form {
     max-width: 600px;
 }
 form input {
-    border: 1px solid rgb(238, 231, 231);
+    border: 1px solid lightgray;
     padding: 5px;
     border-radius: 10px;
-    width: 100%;
+    width: min(262px, 100%);
 }
 
 form input:focus {
@@ -108,7 +114,7 @@ form input:focus {
 .submit:hover {
     background-color: rgb(34, 114, 194);
     color: white;
-    font-size: 1.1rem;
+    font-size: 1.025rem;
 }
 
 footer {
