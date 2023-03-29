@@ -100,7 +100,7 @@ form input:focus {
 .submit {
     padding: 10px 15px;
     border-radius: 10px;
-    background-color: rgb(15, 118, 221);
+    background-color: #0035BB;
     color: white;
     cursor: pointer;
     transition: all 0.5s;
@@ -108,8 +108,8 @@ form input:focus {
 }
 
 .submit:hover {
-    background-color: rgb(11, 76, 141);
-    color: white;
+    background-color: #032b8f;
+    color: rgb(233, 224, 224);
     font-size: 1.025rem;
 }
 
